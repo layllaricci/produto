@@ -5,16 +5,16 @@ header {
   border-radius: 8px;
 }
 
+body {
+  font-family: 'Story Script', cursive;
+}
+
 a {
   color: #e4e4e4;
   text-decoration: none;
-  background-color: #2b2b2b;
+  background-color: #444444;
 }
 
-#voltar {
-  color: #000000;
-  background-color: #A9A9A9;
-}
 
 #produto {
     display: flex;
