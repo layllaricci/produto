@@ -1,1 +1,93 @@
-/* Add styles here */
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #f0eeee;
+  background-color: #1f1f1f;
+}
+
+img {
+  border-radius: 20px;
+}
+
+body {
+  font-family: 'Story Script', cursive;
+  background-color: #1f1f1f;
+}
+
+body {
+  font-size: 20px;
+  background-color: #363636;
+  color: #fffefe;
+  line-height: 1.6; 
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 15px 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  font-size: 24px;
+  color: #4d8b13;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  color: #f8f8f8;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+#hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+#hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #bebebe;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
