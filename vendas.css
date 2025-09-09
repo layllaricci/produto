@@ -104,7 +104,28 @@ a {
   li {
     color: white;
   }
-
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav h1 {
+    font-size: 24px;
+    color: #4d8b13;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    color: #f8f8f8;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
 
 
   
