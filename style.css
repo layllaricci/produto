@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-#especificacoes {
-  display: flex;
-  justify-content: end
-}
-
 main {
   display: flex;
   flex-wrap: wrap;
